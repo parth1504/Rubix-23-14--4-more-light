@@ -14,7 +14,7 @@ const app = express();
 const flash = require('connect-flash');
 
 mongoose.connect(
-"mongodb+srv://parth:P1r5h0403@gql.xedwfcs.mongodb.net/temp2?retryWrites=true&w=majority", {
+"mongo", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
 }, () => { console.log("Mongoose is connected"); });
